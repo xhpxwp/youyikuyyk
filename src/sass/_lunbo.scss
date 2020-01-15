@@ -1,0 +1,91 @@
+// /*****这是轮播图的样式*****
+#lunbo{
+  overflow: hidden;
+    width:1282px;
+    height:567px;
+   position: relative;
+   margin:0 auto;
+    margin-top:14px;
+  
+
+    .lunboul{
+     width:8000px;
+      position: absolute;
+      left: 0px;
+      top: 0;
+   
+        height:567px;
+    li{
+        width:1282px;
+        float:left;
+        img{
+
+            width:1282px;
+            height:567px;
+        }
+    }
+       
+  }
+      
+   
+
+   
+  }
+  .lunbobutton{
+    
+    a{
+      display:inline-block;
+    }
+  }
+  .prev-button{
+       
+    position:absolute;
+
+    left:10px ;
+    top:600px;
+      width:10px;
+      height:50px;
+      background: url("https://img.alicdn.com/imgextra/i4/196993935/TB2x9r2cnAlyKJjSZPiXXXL2VXa-196993935.png") no-repeat 
+  };
+  .next-button{
+ 
+
+    position:absolute;
+    right:10px ;
+    top:600px;
+       width:10px;
+      height:50px;
+      background: url("https://img.alicdn.com/imgextra/i1/196993935/TB2Vxnfbo.iyKJjSspdXXbB_pXa-196993935.png") no-repeat 
+
+  }
+    
+/******这是轮播图按钮的样式********/ 
+  .button {
+    @extend %box;
+    height:64px;
+  
+    position: relative;
+      ul{
+        left:0;
+        right:0;
+        top:0;
+        bottom:0;
+        margin:auto;
+        position: absolute;
+        width:100px;
+        height:10px;
+      }
+      li{
+        float:left;
+        width:10px;
+        height:10px;
+        background:#d1d1d1;
+        cursor: pointer;
+        margin-right:10px;
+        @include border-radius(5px); //调用混合--@mixin混合定义的  
+      
+    }
+  }
+  .btnlist .active {
+    background: black;
+}

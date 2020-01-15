@@ -1,0 +1,133 @@
+/* 这是头部的样式*/
+
+
+#top {
+    @extend %box;
+    height:100px;
+  
+   
+}
+/* 这是头部注册登录导航的样式*/
+
+.top-main{
+  height: 35px;
+  display:flex;
+  justify-content:flex-end;
+
+   ul{
+     display:flex;
+  
+
+    li{
+      justify-content:flex-end;
+      border-right:1px dotted #ababab;
+      font-size:12px;
+      padding:0 15px;
+      margin-top:15px;
+      a{
+        color:black;
+        text-decoration:none;
+      }
+
+   }
+  
+
+   }
+   form{
+ 
+     border-bottom:1px solid #ababab;
+     width:249px;
+    margin-left:20px;
+    padding-top:14px;
+    input{
+      border:0;
+      outline:none;
+    
+      
+    }
+
+   }
+}
+/******这是头部女装企业信息的样式*******/
+.top-item{
+ display:flex;
+ margin-top:13px;
+ justify-content: space-between;
+  img{
+      justify-content: space-between;
+      width:52px;
+      height:52px;
+     }
+
+ .leftul{
+    justify-content: space-between;
+     display:flex;
+     padding:17px 0;
+     li{
+         height:23px;
+         border-right:1px dotted #ababab;
+         padding:0 20px;
+         line-height: 23px;
+         font-weight:bold;
+        
+    
+        
+         a{
+            color:black;
+            text-decoration:none;
+            border-right:1px dotted white;
+            font-size:12px;
+         }
+       
+   
+    a:hover{
+        color:red
+    }
+
+      }
+      li:nth-of-type(4){
+        border:0
+    }
+    }
+
+.rightul{
+  
+    margin-left:40px;
+    display:flex;
+  
+    li{
+       
+        background:#a1a1a1;
+        padding:0 18px;
+   
+        font-size:12px;
+       font-weight:bold;
+        line-height:50px;
+ 
+
+      span{
+        width:0px;
+     height:30px;
+     margin-left:20px;
+     border-right:1px dotted white
+      }
+
+     a{
+        color:white;
+        text-decoration:none;
+        font-size:14px;
+       
+     }
+     a:hover{
+        color:red
+    }
+    }
+
+    li:nth-of-type(5){
+        background:#666666
+    }
+    li:nth-of-type(6){
+        background:#3c3c3c
+    }
+ }
+}
