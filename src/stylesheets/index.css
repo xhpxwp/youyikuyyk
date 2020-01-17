@@ -123,19 +123,18 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin-top: 13px;
   justify-content: space-between;
 }
-/* line 56, ../sass/_top.scss */
-.top-item img {
-  justify-content: space-between;
+/* line 57, ../sass/_top.scss */
+.top-item .logo {
+  background: url(../images/logo.png) no-repeat;
   width: 52px;
   height: 52px;
 }
-/* line 62, ../sass/_top.scss */
+/* line 64, ../sass/_top.scss */
 .top-item .leftul {
-  justify-content: space-between;
   display: flex;
   padding: 17px 0;
 }
-/* line 66, ../sass/_top.scss */
+/* line 68, ../sass/_top.scss */
 .top-item .leftul li {
   height: 23px;
   border-right: 1px dotted #ababab;
@@ -143,27 +142,27 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   line-height: 23px;
   font-weight: bold;
 }
-/* line 75, ../sass/_top.scss */
+/* line 77, ../sass/_top.scss */
 .top-item .leftul li a {
   color: black;
   text-decoration: none;
   border-right: 1px dotted white;
   font-size: 12px;
 }
-/* line 83, ../sass/_top.scss */
+/* line 85, ../sass/_top.scss */
 .top-item .leftul li a:hover {
   color: red;
 }
-/* line 88, ../sass/_top.scss */
+/* line 90, ../sass/_top.scss */
 .top-item .leftul li:nth-of-type(4) {
   border: 0;
 }
-/* line 93, ../sass/_top.scss */
+/* line 95, ../sass/_top.scss */
 .top-item .rightul {
   margin-left: 40px;
   display: flex;
 }
-/* line 98, ../sass/_top.scss */
+/* line 100, ../sass/_top.scss */
 .top-item .rightul li {
   background: #a1a1a1;
   padding: 0 18px;
@@ -171,28 +170,28 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-weight: bold;
   line-height: 50px;
 }
-/* line 108, ../sass/_top.scss */
+/* line 110, ../sass/_top.scss */
 .top-item .rightul li span {
   width: 0px;
   height: 30px;
   margin-left: 20px;
   border-right: 1px dotted white;
 }
-/* line 115, ../sass/_top.scss */
+/* line 117, ../sass/_top.scss */
 .top-item .rightul li a {
   color: white;
   text-decoration: none;
   font-size: 14px;
 }
-/* line 121, ../sass/_top.scss */
+/* line 123, ../sass/_top.scss */
 .top-item .rightul li a:hover {
   color: red;
 }
-/* line 126, ../sass/_top.scss */
+/* line 128, ../sass/_top.scss */
 .top-item .rightul li:nth-of-type(5) {
   background: #666666;
 }
-/* line 129, ../sass/_top.scss */
+/* line 131, ../sass/_top.scss */
 .top-item .rightul li:nth-of-type(6) {
   background: #3c3c3c;
 }
@@ -285,34 +284,35 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background: black;
 }
 
-/* line 1, ../sass/_fllm.scss */
+/***这是分类栏目的样式***/
+/* line 2, ../sass/_fllm.scss */
 #fllm {
   width: 1282px;
   height: 73px;
   margin: 54px auto;
 }
-/* line 6, ../sass/_fllm.scss */
+/* line 7, ../sass/_fllm.scss */
 #fllm ul {
   width: 100%;
   display: flex;
 }
-/* line 11, ../sass/_fllm.scss */
+/* line 12, ../sass/_fllm.scss */
 #fllm li {
   width: 25%;
 }
-/* line 13, ../sass/_fllm.scss */
+/* line 14, ../sass/_fllm.scss */
 #fllm li p:nth-of-type(1) {
   height: 18px;
   text-align: center;
   margin-bottom: 30px;
   border-right: 1px solid #ababab;
 }
-/* line 20, ../sass/_fllm.scss */
+/* line 21, ../sass/_fllm.scss */
 #fllm li p:nth-of-type(2) {
   font-size: 14px;
   text-align: center;
 }
-/* line 25, ../sass/_fllm.scss */
+/* line 26, ../sass/_fllm.scss */
 #fllm li p:nth-of-type(2) a {
   display: inline-block;
   margin-right: 20px;
@@ -321,11 +321,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   padding: 5px 0;
   border-bottom: 2px solid #dadada;
 }
-/* line 34, ../sass/_fllm.scss */
+/* line 35, ../sass/_fllm.scss */
 #fllm li p:nth-of-type(2) a:hover {
   color: green;
 }
-/* line 38, ../sass/_fllm.scss */
+/* line 39, ../sass/_fllm.scss */
 #fllm li p:nth-of-type(2) li:nth-of-type(4) p:nth-of-type(1) {
   border: none;
 }
@@ -602,47 +602,60 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background-color: black;
 }
 /* line 15, ../sass/_footer.scss */
-#footer .footer-nav img {
+#footer .footer-nav .logo {
   width: 52px;
   height: 52px;
+  background: url(../images/logo.png);
 }
-/* line 19, ../sass/_footer.scss */
+/* line 21, ../sass/_footer.scss */
 #footer .footer-nav .footer-leftnav {
   display: flex;
   height: 52px;
 }
-/* line 22, ../sass/_footer.scss */
+/* line 24, ../sass/_footer.scss */
 #footer .footer-nav .footer-leftnav span {
   width: 0px;
   height: 24px;
   border-right: 1px dotted  white;
   margin: 14px 0;
 }
-/* line 29, ../sass/_footer.scss */
+/* line 31, ../sass/_footer.scss */
 #footer .footer-nav .footer-leftnav h3 {
   padding: 17px 120px 17px 120px;
 }
-/* line 31, ../sass/_footer.scss */
+/* line 33, ../sass/_footer.scss */
 #footer .footer-nav .footer-leftnav h3 a {
   font-size: 12px;
   color: white;
   text-decoration: none;
 }
-/* line 37, ../sass/_footer.scss */
+/* line 39, ../sass/_footer.scss */
 #footer .footer-nav .footer-leftnav h3 a:hover {
   color: red;
 }
-/* line 45, ../sass/_footer.scss */
+/* line 47, ../sass/_footer.scss */
 #footer .footeritem {
   display: flex;
-  justify-content: space-between;
   align-items: flex-end;
 }
-/* line 49, ../sass/_footer.scss */
+/* line 51, ../sass/_footer.scss */
 #footer .footeritem a {
   font-size: 14px;
   color: #ababab;
   text-decoration: none;
+}
+/* line 59, ../sass/_footer.scss */
+#footer .footeritem .yingye {
+  background: url(../images/yingye.png) no-repeat;
+  margin-left: 600px;
+  width: 97px;
+  height: 16px;
+}
+/* line 67, ../sass/_footer.scss */
+#footer .footeritem .dc {
+  background: url(../images/dc.png) no-repeat;
+  width: 100px;
+  height: 100px;
 }
 
 /* line 24, ../sass/index.scss */

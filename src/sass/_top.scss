@@ -53,14 +53,16 @@
  display:flex;
  margin-top:13px;
  justify-content: space-between;
-  img{
-      justify-content: space-between;
+ 
+  .logo{
+      background: url(../images/logo.png) no-repeat;
       width:52px;
       height:52px;
+     
      }
 
  .leftul{
-    justify-content: space-between;
+ 
      display:flex;
      padding:17px 0;
      li{

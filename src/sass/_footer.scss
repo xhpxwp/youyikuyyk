@@ -11,11 +11,13 @@
       height:52px;
       display:flex;
       margin-bottom:20px;
-      background-color: black;
-      img{
+      background-color: black;  
+      .logo{
         width:52px;
         height:52px;
+        background:url(../images/logo.png)
       }
+      
       .footer-leftnav{
         display:flex;
         height:52px;
@@ -44,13 +46,33 @@
 
     .footeritem{
       display:flex;
-      justify-content: space-between;
       align-items: flex-end;
+     
       a{
         font-size:14px;
         color:#ababab;
         text-decoration: none;
       }
+      
+
+      
+        .yingye{
+          background:url(../images/yingye.png) no-repeat;
+         margin-left:600px;
+          width:97px;
+          height:16px;
+         
+   
+        }
+        .dc{
+         background:url(../images/dc.png) no-repeat;
+         width:100px;
+         height:100px;
+    
+   
+   
+       }
+ 
      
     
     }
