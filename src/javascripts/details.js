@@ -1,6 +1,8 @@
-! function ($) {
-    class Fdj {
+
+    class Details {
+        
         constructor() {
+            this.sid = location.search.substring(1).split('=')[1];
             this.wrap = $('.wrap');
             this.spic = $('#spic');
             this.sf = $('#sf');
@@ -103,8 +105,77 @@
                     });
                 }
             });
+            
+
         }
     }
 
-    new Fdj().init();
-}(jQuery);
+
+    // class Details{
+    //     constructor(){
+    //       this.sf=$('#sf')
+    //       this.bf=$('#bf')
+    //       this.wrap=$('.wrap')
+    //       this.spic=$('#spic')
+    //       this.bpic=$('#bpic')
+    //       this.left=$('#left')
+    //       this.right=$('#right')
+    //       this.ulmove=$('#list ul')
+    //       this.list=$('#list ul li')
+  
+  
+  
+    //     }
+  
+    //     init(){
+    //         let _this=this
+    //      this.spic.hover(()=>{
+    //          $('#sf,#bf').css('visibility','visible')//第一个函数是移入，第二个函数是移出
+    //          this.spic.on('mousemove',(e)=>{
+    //              // 求小放可以移动的范围以及让小放随着鼠标移动而移动，鼠标位于小放中间
+    //           let $l=e.pageX-this.wrap.offset().left-this.sf.width()/2;
+    //           let $t=e.pageY-this.wrap.offset().top-this.sf.height()/2;
+    //           if($l<0){
+    //               $l=0
+    //           }else if($l>=this.spic.outerWidth()-this.sf.outerWidth()){
+    //               $l=this.spic.outerWidth()-this.sf.outerWidth()-2
+    //           }
+    //           if($t<0){
+    //               $t=0
+    //           }else if($t>=this.spic.outerHeight()-this.sf.outerHeight()){
+    //               $t=this.spic.outerHeight()-this.sf.outerHeight()-2
+    //           }
+    //           this.sf.css({
+    //               left:$l,
+    //               top:$t
+    //           });
+    //           // 现在求小放的尺寸和比例，大图的距离等于小放移动的距离乘以比例
+    //           this.sf.css({
+    //               width:this.spic.outerWidth()*this.bf.outerWidth()/this.bpic.outerWidth(),
+    //               height:this.spic.outerHeight()*this.bf.outerHeight()/this.bpic.outerHeight(),
+    //           });
+    //           this.bili=this.bpic.outerWidth()/this.spic.outerWidth();
+    //           this.bpic.css({
+    //               left:-$l*this.bili,
+    //               top:-$t*this.bili
+    //           })
+  
+    //          })
+  
+  
+    //      },()=>{$('#sf,#bf').css('visibility','hidden')
+  
+    //      });
+    //      this.ulmove.on('click','li',function(){
+    //          let $imgurl=$(this).find('img').attr('src');
+    //           _this.spic.find('img').attr('src',$imgurl);
+    //           _this.bpic.attr('src',$imgurl)
+    //      })
+  
+    //     }
+    //   }
+      new Details().init()
+//    export{
+//        Details
+//    }
+

@@ -1,0 +1,84 @@
+ /*******这是热门商品分类的样式*******/
+ #rmsp{
+    @extend %box;
+    height:963px;
+  
+    margin-top:67px;
+
+    p{
+      font-size:30px;
+      font-weight:bold;
+   
+    }
+    ul{
+      width: 100%;
+      display:flex;
+      margin-bottom:30px;
+      li{
+        width:25%;
+        text-align: center;
+        border-bottom:1px solid #ababab;
+        line-height:78px;
+        a{
+          text-decoration: none;
+          color:#ababab;
+          font-weight:bold;
+       
+        }
+      
+      a:hover{
+        color:black
+      }
+    }
+  }
+  .rmspimg1{
+    height: 828px;
+    display:block;
+     a{
+      display:inline-block;
+      width:100%;
+      height:100%;
+     
+     
+   }
+    
+  
+    }
+   .rmspimg2{
+    height: 828px;
+    display:none;
+     a{
+      display:inline-block;
+      width:100%;
+      height:100%;
+   
+   }
+    
+   
+    }
+    .rmspimg3{
+      height: 828px;
+      display:none;
+       a{
+        display:inline-block;
+        width:100%;
+        height:100%;
+        
+     }
+    }
+     .rmspimg4{
+      height: 828px;
+      display:none;
+       a{
+        display:inline-block;
+        width:100%;
+        height:100%;
+      
+     }
+    
+    
+  }
+  .active{
+    border-bottom:#378694 4px solid 
+  }
+}

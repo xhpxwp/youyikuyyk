@@ -1,0 +1,80 @@
+/*******这是热销排行的样式*******/
+#rxph{
+    @extend %box;
+    margin-top:67px;
+    height:561px;
+    p{
+      font-size:30px;
+      font-weight:bold;
+   
+    }
+    ul{
+      width: 100%;
+      display:flex;
+      margin-bottom:30px;
+      li{
+        width:25%;
+        text-align: center;
+        border-bottom:1px solid #ababab;
+        line-height:78px;
+        a{
+          text-decoration: none;
+          color:#ababab;
+          font-weight:bold;
+       
+        }
+      
+      a:hover{
+        color:black
+      }
+    }
+    }
+  
+    .rxphimg1{
+      height:422px;
+      display: block;
+      a{
+        display:inline-block;
+        height:100%;
+        width:100%;
+       
+      }
+     
+    }
+    .rxphimg2{
+      height:422px;
+      display: none;
+      a{
+        display:inline-block;
+        height:100%;
+        width:100%;
+     
+     
+    }
+  }
+    .rxphimg3{
+      height:422px;
+      display: none;
+      a{
+        display:inline-block;
+        height:100%;
+        width:100%;
+      
+      }
+     
+    }
+    .rxphimg4{
+      height:422px;
+      display: none;
+      a{
+        display:inline-block;
+        height:100%;
+        width:100%;
+      
+      }
+     
+    }
+    .active{
+      border-bottom:#378694 4px solid 
+    }
+    }

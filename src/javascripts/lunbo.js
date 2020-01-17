@@ -1,4 +1,4 @@
-class youyiku {
+class Lunbo {
     constructor() {
         this.lunbo = $('#lunbo');
         this.ullist = $(' .lunboul');//运动的ul
@@ -137,4 +137,4 @@ class youyiku {
 
 }
 
-new youyiku().init();
+new Lunbo().init();

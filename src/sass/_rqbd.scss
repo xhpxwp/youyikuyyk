@@ -1,0 +1,83 @@
+/*******这是人气榜单的样式*******/
+#rqbd{
+    @extend %box;
+    height:646px;
+    background:lightcoral;
+    position:relative;
+    ul{
+      width:878px;
+      display:flex;
+      justify-content: space-between;
+      left:131px;
+      top:111px;
+      position: absolute;
+      li{
+        margin-right:40px;
+        a{
+          display: inline-block;
+         width:100px;
+         height:30px;
+          font-size:24px;
+          text-decoration: none;
+          color:black;
+          text-align:center;
+          
+        }
+        a:hover{
+          border-radius: 10%;
+          color:white;
+          background-color: blue;
+        }
+        a:before{
+          content: "";
+    position: absolute;
+    left: -54px;
+    top: -8px;
+    width: 50px;
+    height: 50px;
+    background-image: url("https://img.alicdn.com/imgextra/i2/196993935/O1CN01pUmIvI1ewH6As5eFD_!!196993935.png")
+        }
+      }
+    
+    }
+    .rqbdimg1{
+      height: 642px;
+      display:block;
+       a{
+        display:inline-block;
+        width:100%;
+        height:100%;
+       }
+     }
+    .rqbdimg2{
+      height: 642px;
+      display:none;
+       a{
+        display:inline-block;
+        width:100%;
+        height:100%;
+      
+     }
+    }
+     .rqbdimg3{
+      height: 642px;
+      display:none;
+       a{
+        display:inline-block;
+        width:100%;
+        height:100%;
+     
+     }
+     
+      }
+      .rqbdimg4{
+        height: 642px;
+        display:none;
+         a{
+          display:inline-block;
+          width:100%;
+          height:100%;
+       
+       }
+      }
+  }

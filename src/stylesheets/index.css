@@ -330,146 +330,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   border: none;
 }
 
-/* line 19, ../sass/index.scss */
-#top, .button, #gonggao1, #louti, #louticopy, .guanggao1, .guanggao2, .guanggao3, #rqbd, #tj, #nzktj, #rqsp, #xsty, .guanggao4, #rmsp, #cdtj, #tjyl, #hz, #utxl, #rxph, #fw, #daogou, #footer {
-  width: 1282px;
-  margin: 0 auto;
-}
-
-/*这是公告的样式*/
-/* line 25, ../sass/index.scss */
-#gonggao1 {
-  height: 52px;
-  background: #fe0000;
-  margin: 27px auto 10px;
-  display: flex;
-  justify-content: space-between;
-}
-/* line 33, ../sass/index.scss */
-#gonggao1 .nextbutton {
-  width: 62px;
-  height: 52px;
-  background: url("https://www.uniqlo.cn/public/image/L1/2019/common/notice_next.png") no-repeat center center;
-}
-/* line 38, ../sass/index.scss */
-#gonggao1 .prevbutton {
-  width: 62px;
-  height: 52px;
-  background: url("https://www.uniqlo.cn/public/image/L1/2019/common/notice_prev.png") no-repeat center center;
-}
-/* line 44, ../sass/index.scss */
-#gonggao1 ul {
-  overflow: hidden;
-  height: 52px;
-  width: 3000px;
-}
-/* line 49, ../sass/index.scss */
-#gonggao1 ul li {
-  background: #fe0000;
-  width: 1158px;
-  height: 52px;
-  float: left;
-}
-/* line 55, ../sass/index.scss */
-#gonggao1 ul li img {
-  width: 1158px;
-}
-
-/**********这是楼梯的样式********/
-/* line 62, ../sass/index.scss */
-#louti {
-  height: 82px;
-  background: #a91523;
-}
-/* line 68, ../sass/index.scss */
-#louti ul {
-  display: flex;
-  height: 82px;
-  justify-content: space-evenly;
-}
-/* line 73, ../sass/index.scss */
-#louti ul li {
-  line-height: 38px;
-  font-size: 20px;
-  padding: 18px;
-}
-/* line 79, ../sass/index.scss */
-#louti ul li a {
-  color: #ffe699;
-  text-decoration: none;
-}
-
-/* line 89, ../sass/index.scss */
-#louticopy {
-  height: 82px;
-  background: #a91523;
-  position: fixed;
-  top: -100px;
-  z-index: 2;
-  margin-left: 33px;
-}
-/* line 99, ../sass/index.scss */
-#louticopy ul {
-  display: flex;
-  height: 82px;
-  justify-content: space-evenly;
-}
-/* line 104, ../sass/index.scss */
-#louticopy ul li {
-  line-height: 38px;
-  font-size: 20px;
-  padding: 18px;
-}
-/* line 110, ../sass/index.scss */
-#louticopy ul li a {
-  color: #ffe699;
-  text-decoration: none;
-}
-
-/**********这是广告的样式***********/
-/* line 121, ../sass/index.scss */
-.guanggao1 {
-  height: 74px;
-  margin: 26px auto 14px;
-}
-/* line 124, ../sass/index.scss */
-.guanggao1 img {
-  width: 100%;
-  height: 100%;
-}
-
-/******这是广告的样式*******/
-/* line 131, ../sass/index.scss */
-.guanggao2 {
-  height: 162px;
-  margin-bottom: 17px;
-}
-/* line 134, ../sass/index.scss */
-.guanggao2 img {
-  width: 100%;
-  height: 100%;
-}
-
-/******这是广告的样式*******/
-/* line 141, ../sass/index.scss */
-.guanggao3 {
-  height: 205px;
-  margin-bottom: 17px;
-}
-/* line 144, ../sass/index.scss */
-.guanggao3 img {
-  width: 100%;
-  height: 100%;
-}
-
 /*******这是人气榜单的样式*******/
-/* line 152, ../sass/index.scss */
+/* line 2, ../sass/_rqbd.scss */
 #rqbd {
   height: 646px;
   background: lightcoral;
   position: relative;
 }
-/* line 157, ../sass/index.scss */
+/* line 7, ../sass/_rqbd.scss */
 #rqbd ul {
   width: 878px;
   display: flex;
@@ -478,11 +346,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   top: 111px;
   position: absolute;
 }
-/* line 164, ../sass/index.scss */
+/* line 14, ../sass/_rqbd.scss */
 #rqbd ul li {
   margin-right: 40px;
 }
-/* line 166, ../sass/index.scss */
+/* line 16, ../sass/_rqbd.scss */
 #rqbd ul li a {
   display: inline-block;
   width: 100px;
@@ -492,13 +360,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   color: black;
   text-align: center;
 }
-/* line 176, ../sass/index.scss */
+/* line 26, ../sass/_rqbd.scss */
 #rqbd ul li a:hover {
   border-radius: 10%;
   color: white;
   background-color: blue;
 }
-/* line 181, ../sass/index.scss */
+/* line 31, ../sass/_rqbd.scss */
 #rqbd ul li a:before {
   content: "";
   position: absolute;
@@ -508,418 +376,224 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   height: 50px;
   background-image: url("https://img.alicdn.com/imgextra/i2/196993935/O1CN01pUmIvI1ewH6As5eFD_!!196993935.png");
 }
-/* line 193, ../sass/index.scss */
+/* line 43, ../sass/_rqbd.scss */
 #rqbd .rqbdimg1 {
   height: 642px;
   display: block;
 }
-/* line 196, ../sass/index.scss */
+/* line 46, ../sass/_rqbd.scss */
 #rqbd .rqbdimg1 a {
   display: inline-block;
   width: 100%;
   height: 100%;
 }
-/* line 202, ../sass/index.scss */
+/* line 52, ../sass/_rqbd.scss */
 #rqbd .rqbdimg2 {
   height: 642px;
   display: none;
 }
-/* line 205, ../sass/index.scss */
+/* line 55, ../sass/_rqbd.scss */
 #rqbd .rqbdimg2 a {
   display: inline-block;
   width: 100%;
   height: 100%;
 }
-/* line 212, ../sass/index.scss */
+/* line 62, ../sass/_rqbd.scss */
 #rqbd .rqbdimg3 {
   height: 642px;
   display: none;
 }
-/* line 215, ../sass/index.scss */
+/* line 65, ../sass/_rqbd.scss */
 #rqbd .rqbdimg3 a {
   display: inline-block;
   width: 100%;
   height: 100%;
 }
-/* line 223, ../sass/index.scss */
+/* line 73, ../sass/_rqbd.scss */
 #rqbd .rqbdimg4 {
   height: 642px;
   display: none;
 }
-/* line 226, ../sass/index.scss */
+/* line 76, ../sass/_rqbd.scss */
 #rqbd .rqbdimg4 a {
   display: inline-block;
   width: 100%;
   height: 100%;
 }
 
-/*******这是本周推荐的样式*******/
-/* line 236, ../sass/index.scss */
-#tj {
-  height: 639px;
-}
-/* line 240, ../sass/index.scss */
-#tj p {
-  font-size: 30px;
-  font-weight: bold;
-  margin-bottom: 30px;
-}
-/* line 245, ../sass/index.scss */
-#tj img {
-  width: 100%;
-  height: 578px;
-}
-
-/*******这是牛仔裤推荐的样式*******/
-/* line 254, ../sass/index.scss */
-#nzktj {
-  height: 997px;
-  margin-top: 30px;
-}
-/* line 260, ../sass/index.scss */
-#nzktj .nzkimg1 {
-  width: 100%;
-  height: 433px;
-  margin-bottom: 40px;
-}
-/* line 265, ../sass/index.scss */
-#nzktj .nzkimg2 {
-  width: 100%;
-  height: 520px;
-}
-
-/*******这是人气商品的样式*******/
-/* line 271, ../sass/index.scss */
-#rqsp {
-  height: 1182px;
-  margin-top: 60px;
-}
-/* line 276, ../sass/index.scss */
-#rqsp p {
-  font-size: 30px;
-  font-weight: bold;
-  margin-bottom: 30px;
-}
-/* line 281, ../sass/index.scss */
-#rqsp .rqspimg1 {
-  width: 100%;
-  height: 578px;
-  margin-bottom: 30px;
-}
-/* line 287, ../sass/index.scss */
-#rqsp .rqspimg2 {
-  width: 100%;
-  height: 512px;
-}
-
-/*******这是限时特优的样式*******/
-/* line 293, ../sass/index.scss */
-#xsty {
-  height: 1182px;
-  margin-top: 60px;
-}
-/* line 297, ../sass/index.scss */
-#xsty p {
-  font-size: 30px;
-  font-weight: bold;
-  margin-bottom: 30px;
-}
-/* line 302, ../sass/index.scss */
-#xsty .xstyimg1 {
-  width: 100%;
-  height: 578px;
-  margin-bottom: 30px;
-}
-/* line 308, ../sass/index.scss */
-#xsty .xstyimg2 {
-  width: 100%;
-  height: 512px;
-}
-
-/*******这是广告的样式*******/
-/* line 314, ../sass/index.scss */
-.guanggao4 {
-  height: 202px;
-  margin: 38px auto 63px;
-}
-/* line 317, ../sass/index.scss */
-.guanggao4 img {
-  width: 100%;
-  height: 100%;
-}
-
 /*******这是热门商品分类的样式*******/
-/* line 325, ../sass/index.scss */
+/* line 2, ../sass/_rmsp.scss */
 #rmsp {
   height: 963px;
   margin-top: 67px;
 }
-/* line 331, ../sass/index.scss */
+/* line 8, ../sass/_rmsp.scss */
 #rmsp p {
   font-size: 30px;
   font-weight: bold;
 }
-/* line 336, ../sass/index.scss */
+/* line 13, ../sass/_rmsp.scss */
 #rmsp ul {
   width: 100%;
   display: flex;
   margin-bottom: 30px;
 }
-/* line 340, ../sass/index.scss */
+/* line 17, ../sass/_rmsp.scss */
 #rmsp ul li {
   width: 25%;
   text-align: center;
   border-bottom: 1px solid #ababab;
   line-height: 78px;
 }
-/* line 345, ../sass/index.scss */
+/* line 22, ../sass/_rmsp.scss */
 #rmsp ul li a {
   text-decoration: none;
   color: #ababab;
   font-weight: bold;
 }
-/* line 352, ../sass/index.scss */
+/* line 29, ../sass/_rmsp.scss */
 #rmsp ul li a:hover {
   color: black;
 }
-/* line 357, ../sass/index.scss */
+/* line 34, ../sass/_rmsp.scss */
 #rmsp .rmspimg1 {
   height: 828px;
   display: block;
 }
-/* line 360, ../sass/index.scss */
+/* line 37, ../sass/_rmsp.scss */
 #rmsp .rmspimg1 a {
   display: inline-block;
   width: 100%;
   height: 100%;
 }
-/* line 370, ../sass/index.scss */
+/* line 47, ../sass/_rmsp.scss */
 #rmsp .rmspimg2 {
   height: 828px;
   display: none;
 }
-/* line 373, ../sass/index.scss */
+/* line 50, ../sass/_rmsp.scss */
 #rmsp .rmspimg2 a {
   display: inline-block;
   width: 100%;
   height: 100%;
 }
-/* line 382, ../sass/index.scss */
+/* line 59, ../sass/_rmsp.scss */
 #rmsp .rmspimg3 {
   height: 828px;
   display: none;
 }
-/* line 385, ../sass/index.scss */
+/* line 62, ../sass/_rmsp.scss */
 #rmsp .rmspimg3 a {
   display: inline-block;
   width: 100%;
   height: 100%;
 }
-/* line 392, ../sass/index.scss */
+/* line 69, ../sass/_rmsp.scss */
 #rmsp .rmspimg4 {
   height: 828px;
   display: none;
 }
-/* line 395, ../sass/index.scss */
+/* line 72, ../sass/_rmsp.scss */
 #rmsp .rmspimg4 a {
   display: inline-block;
   width: 100%;
   height: 100%;
 }
-/* line 404, ../sass/index.scss */
+/* line 81, ../sass/_rmsp.scss */
 #rmsp .active {
   border-bottom: #378694 4px solid;
 }
 
-/*******这是穿搭推荐的样式*******/
-/* line 409, ../sass/index.scss */
-#cdtj {
-  margin-top: 67px;
-}
-/* line 413, ../sass/index.scss */
-#cdtj p {
-  font-size: 30px;
-  font-weight: bold;
-  margin-bottom: 30px;
-}
-
-/*******这是特辑一览的样式*******/
-/* line 421, ../sass/index.scss */
-#tjyl {
-  margin-top: 67px;
-}
-/* line 425, ../sass/index.scss */
-#tjyl p {
-  font-size: 30px;
-  font-weight: bold;
-  margin-bottom: 30px;
-}
-/* line 430, ../sass/index.scss */
-#tjyl .tjylimg1 {
-  margin-bottom: 30px;
-}
-
-/*******这是合作系列的样式*******/
-/* line 435, ../sass/index.scss */
-#hz {
-  height: 1144px;
-  margin-top: 80px;
-}
-/* line 440, ../sass/index.scss */
-#hz p {
-  font-size: 30px;
-  font-weight: bold;
-  margin-bottom: 30px;
-}
-/* line 445, ../sass/index.scss */
-#hz .hzimg1 {
-  margin-bottom: 30px;
-}
-
-/*******这是ut系列的样式*******/
-/* line 453, ../sass/index.scss */
-#utxl {
-  height: 1214px;
-  margin-top: 64px;
-}
-/* line 458, ../sass/index.scss */
-#utxl p {
-  font-size: 30px;
-  font-weight: bold;
-  margin-bottom: 30px;
-}
-/* line 463, ../sass/index.scss */
-#utxl .utimg1 {
-  margin-bottom: 30px;
-}
-
 /*******这是热销排行的样式*******/
-/* line 471, ../sass/index.scss */
+/* line 2, ../sass/_rxph.scss */
 #rxph {
   margin-top: 67px;
   height: 561px;
 }
-/* line 475, ../sass/index.scss */
+/* line 6, ../sass/_rxph.scss */
 #rxph p {
   font-size: 30px;
   font-weight: bold;
 }
-/* line 480, ../sass/index.scss */
+/* line 11, ../sass/_rxph.scss */
 #rxph ul {
-  widows: 100%;
+  width: 100%;
   display: flex;
   margin-bottom: 30px;
 }
-/* line 484, ../sass/index.scss */
+/* line 15, ../sass/_rxph.scss */
 #rxph ul li {
   width: 25%;
   text-align: center;
   border-bottom: 1px solid #ababab;
   line-height: 78px;
 }
-/* line 489, ../sass/index.scss */
+/* line 20, ../sass/_rxph.scss */
 #rxph ul li a {
   text-decoration: none;
   color: #ababab;
   font-weight: bold;
 }
-/* line 496, ../sass/index.scss */
+/* line 27, ../sass/_rxph.scss */
 #rxph ul li a:hover {
   color: black;
 }
-/* line 502, ../sass/index.scss */
+/* line 33, ../sass/_rxph.scss */
 #rxph .rxphimg1 {
   height: 422px;
   display: block;
 }
-/* line 505, ../sass/index.scss */
+/* line 36, ../sass/_rxph.scss */
 #rxph .rxphimg1 a {
   display: inline-block;
   height: 100%;
   width: 100%;
 }
-/* line 513, ../sass/index.scss */
+/* line 44, ../sass/_rxph.scss */
 #rxph .rxphimg2 {
   height: 422px;
   display: none;
 }
-/* line 516, ../sass/index.scss */
+/* line 47, ../sass/_rxph.scss */
 #rxph .rxphimg2 a {
   display: inline-block;
   height: 100%;
   width: 100%;
 }
-/* line 524, ../sass/index.scss */
+/* line 55, ../sass/_rxph.scss */
 #rxph .rxphimg3 {
   height: 422px;
   display: none;
 }
-/* line 527, ../sass/index.scss */
+/* line 58, ../sass/_rxph.scss */
 #rxph .rxphimg3 a {
   display: inline-block;
   height: 100%;
   width: 100%;
 }
-/* line 535, ../sass/index.scss */
+/* line 66, ../sass/_rxph.scss */
 #rxph .rxphimg4 {
   height: 422px;
   display: none;
 }
-/* line 538, ../sass/index.scss */
+/* line 69, ../sass/_rxph.scss */
 #rxph .rxphimg4 a {
   display: inline-block;
   height: 100%;
   width: 100%;
 }
-/* line 546, ../sass/index.scss */
+/* line 77, ../sass/_rxph.scss */
 #rxph .active {
   border-bottom: #378694 4px solid;
 }
 
-/*******这是便利服务的样式*******/
-/* line 553, ../sass/index.scss */
-#fw {
-  height: 728px;
-  margin-top: 60px;
-  display: flex;
-  flex-direction: column;
-}
-/* line 559, ../sass/index.scss */
-#fw p {
-  font-size: 30px;
-  font-weight: bold;
-  margin-bottom: 30px;
-}
-/* line 564, ../sass/index.scss */
-#fw .tips {
-  margin-top: 100px;
-  text-align: center;
-  border-bottom: 1px solid #ababab;
-  padding-bottom: 30px;
-}
-/* line 570, ../sass/index.scss */
-#fw .tips h3 {
-  font-weight: bold;
-  margin-bottom: 15px;
-}
-/* line 574, ../sass/index.scss */
-#fw .tips h4 a {
-  color: black;
-}
-
-/******这是导购的样式******/
-/* line 580, ../sass/index.scss */
-#daogou {
-  margin-top: 78px;
-}
-
 /******这是尾部的样式******/
-/* line 587, ../sass/index.scss */
+/* line 2, ../sass/_footer.scss */
 #footer {
   height: 176px;
   margin-top: 24px;
 }
-/* line 594, ../sass/index.scss */
+/* line 9, ../sass/_footer.scss */
 #footer .footer-nav {
   width: 100%;
   height: 52px;
@@ -927,52 +601,378 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin-bottom: 20px;
   background-color: black;
 }
-/* line 600, ../sass/index.scss */
+/* line 15, ../sass/_footer.scss */
 #footer .footer-nav img {
   width: 52px;
   height: 52px;
 }
-/* line 604, ../sass/index.scss */
+/* line 19, ../sass/_footer.scss */
 #footer .footer-nav .footer-leftnav {
   display: flex;
   height: 52px;
 }
-/* line 607, ../sass/index.scss */
+/* line 22, ../sass/_footer.scss */
 #footer .footer-nav .footer-leftnav span {
   width: 0px;
   height: 24px;
   border-right: 1px dotted  white;
   margin: 14px 0;
 }
-/* line 614, ../sass/index.scss */
+/* line 29, ../sass/_footer.scss */
 #footer .footer-nav .footer-leftnav h3 {
   padding: 17px 120px 17px 120px;
 }
-/* line 616, ../sass/index.scss */
+/* line 31, ../sass/_footer.scss */
 #footer .footer-nav .footer-leftnav h3 a {
   font-size: 12px;
   color: white;
   text-decoration: none;
 }
-/* line 622, ../sass/index.scss */
+/* line 37, ../sass/_footer.scss */
 #footer .footer-nav .footer-leftnav h3 a:hover {
   color: red;
 }
-/* line 630, ../sass/index.scss */
+/* line 45, ../sass/_footer.scss */
 #footer .footeritem {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
 }
-/* line 634, ../sass/index.scss */
+/* line 49, ../sass/_footer.scss */
 #footer .footeritem a {
   font-size: 14px;
   color: #ababab;
   text-decoration: none;
 }
 
+/* line 24, ../sass/index.scss */
+#top, .button, #rqbd, #rmsp, #rxph, #footer, #gonggao1, #louti, #louticopy, .guanggao1, .guanggao2, .guanggao3, #tj, #nzktj, #rqsp, #xsty, .guanggao4, #cdtj, #tjyl, #hz, #utxl, #fw, #daogou {
+  width: 1282px;
+  margin: 0 auto;
+}
+
+/*这是公告的样式*/
+/* line 30, ../sass/index.scss */
+#gonggao1 {
+  height: 52px;
+  background: #fe0000;
+  margin: 27px auto 10px;
+  display: flex;
+  justify-content: space-between;
+}
+/* line 38, ../sass/index.scss */
+#gonggao1 .nextbutton {
+  width: 62px;
+  height: 52px;
+  background: url("https://www.uniqlo.cn/public/image/L1/2019/common/notice_next.png") no-repeat center center;
+}
+/* line 43, ../sass/index.scss */
+#gonggao1 .prevbutton {
+  width: 62px;
+  height: 52px;
+  background: url("https://www.uniqlo.cn/public/image/L1/2019/common/notice_prev.png") no-repeat center center;
+}
+/* line 49, ../sass/index.scss */
+#gonggao1 ul {
+  overflow: hidden;
+  height: 52px;
+  width: 3000px;
+}
+/* line 54, ../sass/index.scss */
+#gonggao1 ul li {
+  background: #fe0000;
+  width: 1158px;
+  height: 52px;
+  float: left;
+}
+/* line 60, ../sass/index.scss */
+#gonggao1 ul li img {
+  width: 1158px;
+}
+
+/**********这是楼梯的样式********/
+/* line 67, ../sass/index.scss */
+#louti {
+  height: 82px;
+  background: #a91523;
+}
+/* line 73, ../sass/index.scss */
+#louti ul {
+  display: flex;
+  height: 82px;
+  justify-content: space-evenly;
+}
+/* line 78, ../sass/index.scss */
+#louti ul li {
+  line-height: 38px;
+  font-size: 20px;
+  padding: 18px;
+}
+/* line 84, ../sass/index.scss */
+#louti ul li a {
+  color: #ffe699;
+  text-decoration: none;
+}
+
+/* line 94, ../sass/index.scss */
+#louticopy {
+  height: 82px;
+  background: #a91523;
+  position: fixed;
+  top: -100px;
+  z-index: 2;
+  margin-left: 33px;
+}
+/* line 104, ../sass/index.scss */
+#louticopy ul {
+  display: flex;
+  height: 82px;
+  justify-content: space-evenly;
+}
+/* line 109, ../sass/index.scss */
+#louticopy ul li {
+  line-height: 38px;
+  font-size: 20px;
+  padding: 18px;
+}
+/* line 115, ../sass/index.scss */
+#louticopy ul li a {
+  color: #ffe699;
+  text-decoration: none;
+}
+
+/**********这是广告的样式***********/
+/* line 126, ../sass/index.scss */
+.guanggao1 {
+  height: 74px;
+  margin: 26px auto 14px;
+}
+/* line 129, ../sass/index.scss */
+.guanggao1 img {
+  width: 100%;
+  height: 100%;
+}
+
+/******这是广告的样式*******/
+/* line 136, ../sass/index.scss */
+.guanggao2 {
+  height: 162px;
+  margin-bottom: 17px;
+}
+/* line 139, ../sass/index.scss */
+.guanggao2 img {
+  width: 100%;
+  height: 100%;
+}
+
+/******这是广告的样式*******/
+/* line 146, ../sass/index.scss */
+.guanggao3 {
+  height: 205px;
+  margin-bottom: 17px;
+}
+/* line 149, ../sass/index.scss */
+.guanggao3 img {
+  width: 100%;
+  height: 100%;
+}
+
+/*******这是本周推荐的样式*******/
+/* line 158, ../sass/index.scss */
+#tj {
+  height: 639px;
+}
+/* line 162, ../sass/index.scss */
+#tj p {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+/* line 167, ../sass/index.scss */
+#tj img {
+  width: 100%;
+  height: 578px;
+}
+
+/*******这是牛仔裤推荐的样式*******/
+/* line 176, ../sass/index.scss */
+#nzktj {
+  height: 997px;
+  margin-top: 30px;
+}
+/* line 182, ../sass/index.scss */
+#nzktj .nzkimg1 {
+  width: 100%;
+  height: 433px;
+  margin-bottom: 40px;
+}
+/* line 187, ../sass/index.scss */
+#nzktj .nzkimg2 {
+  width: 100%;
+  height: 520px;
+}
+
+/*******这是人气商品的样式*******/
+/* line 193, ../sass/index.scss */
+#rqsp {
+  height: 1182px;
+  margin-top: 60px;
+}
+/* line 198, ../sass/index.scss */
+#rqsp p {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+/* line 203, ../sass/index.scss */
+#rqsp .rqspimg1 {
+  width: 100%;
+  height: 578px;
+  margin-bottom: 30px;
+}
+/* line 209, ../sass/index.scss */
+#rqsp .rqspimg2 {
+  width: 100%;
+  height: 512px;
+}
+
+/*******这是限时特优的样式*******/
+/* line 215, ../sass/index.scss */
+#xsty {
+  height: 1182px;
+  margin-top: 60px;
+}
+/* line 219, ../sass/index.scss */
+#xsty p {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+/* line 224, ../sass/index.scss */
+#xsty .xstyimg1 {
+  width: 100%;
+  height: 578px;
+  margin-bottom: 30px;
+}
+/* line 230, ../sass/index.scss */
+#xsty .xstyimg2 {
+  width: 100%;
+  height: 512px;
+}
+
+/*******这是广告的样式*******/
+/* line 236, ../sass/index.scss */
+.guanggao4 {
+  height: 202px;
+  margin: 38px auto 63px;
+}
+/* line 239, ../sass/index.scss */
+.guanggao4 img {
+  width: 100%;
+  height: 100%;
+}
+
+/*******这是穿搭推荐的样式*******/
+/* line 248, ../sass/index.scss */
+#cdtj {
+  margin-top: 67px;
+}
+/* line 252, ../sass/index.scss */
+#cdtj p {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+/*******这是特辑一览的样式*******/
+/* line 260, ../sass/index.scss */
+#tjyl {
+  margin-top: 67px;
+}
+/* line 264, ../sass/index.scss */
+#tjyl p {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+/* line 269, ../sass/index.scss */
+#tjyl .tjylimg1 {
+  margin-bottom: 30px;
+}
+
+/*******这是合作系列的样式*******/
+/* line 274, ../sass/index.scss */
+#hz {
+  height: 1144px;
+  margin-top: 80px;
+}
+/* line 279, ../sass/index.scss */
+#hz p {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+/* line 284, ../sass/index.scss */
+#hz .hzimg1 {
+  margin-bottom: 30px;
+}
+
+/*******这是ut系列的样式*******/
+/* line 292, ../sass/index.scss */
+#utxl {
+  height: 1214px;
+  margin-top: 64px;
+}
+/* line 297, ../sass/index.scss */
+#utxl p {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+/* line 302, ../sass/index.scss */
+#utxl .utimg1 {
+  margin-bottom: 30px;
+}
+
+/*******这是便利服务的样式*******/
+/* line 313, ../sass/index.scss */
+#fw {
+  height: 728px;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+}
+/* line 319, ../sass/index.scss */
+#fw p {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+/* line 324, ../sass/index.scss */
+#fw .tips {
+  margin-top: 100px;
+  text-align: center;
+  border-bottom: 1px solid #ababab;
+  padding-bottom: 30px;
+}
+/* line 330, ../sass/index.scss */
+#fw .tips h3 {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+/* line 334, ../sass/index.scss */
+#fw .tips h4 a {
+  color: black;
+}
+
+/******这是导购的样式******/
+/* line 340, ../sass/index.scss */
+#daogou {
+  margin-top: 78px;
+}
+
 /******这是回到顶部的样式******/
-/* line 645, ../sass/index.scss */
+/* line 348, ../sass/index.scss */
 #topbutton {
   width: 50px;
   font-size: 12px;

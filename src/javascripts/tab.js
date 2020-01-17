@@ -1,4 +1,4 @@
-class tabs{
+class Tabs{
     constructor(){
 
     }
@@ -40,4 +40,8 @@ class tabs{
         });
     }
 }
-  new tabs().init()
+
+
+export {
+    Tabs
+}

@@ -70,6 +70,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* 这是头部的样式*/
 /* line 4, ../sass/_top.scss */
 #top {
+  width:1282px;
+    margin:0 auto;
   height: 100px;
 
 }
@@ -193,6 +195,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 #footer {
+  width:1282px;
+    margin:0 auto;
   height: 176px;
   margin-top: 24px;
 }

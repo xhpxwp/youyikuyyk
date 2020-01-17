@@ -1,4 +1,4 @@
-class louti {
+class Louti {
 
     constructor() {
 
@@ -52,7 +52,7 @@ class louti {
             let $top = $(window).scrollTop();
             let $topbutton = $('#topbutton')
             if ($top > 500) {
-           
+               
                 $('#topbutton').css('visibility', 'visible')
                 $('#topbutton').css('position', 'fixed')
                 $('#topbutton').css('top', '300px')
@@ -64,6 +64,7 @@ class louti {
                 })
             }
             else{
+               
                 $('#topbutton').css('visibility', 'hidden')
             }
         })
@@ -73,4 +74,6 @@ class louti {
 
 
 }
-new louti().init()
+ export{
+     Louti
+ }
