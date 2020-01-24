@@ -103,10 +103,7 @@ module.exports = {
                 collapseWhitespace: true
             }
         }),
-        // new CopyPlugin([
-        //     { from: './src/fonts', to: 'fonts' },
-           
-        //   ])
+      
     ]
 
 };

@@ -1,0 +1,232 @@
+/* 这是中间登录的样式 */
+.l-col{
+    width:1282px;
+    height:60px;
+    background-color: #f4f4f4;
+    margin:30px auto 10px;
+    font-size:30px;
+    text-indent: 10px
+  }
+  #loginregistry{
+    height:320px;
+    width:1282px;
+    margin:0 auto 10px;
+  }
+  #login{
+      width:600px;
+      float:left;
+    
+  }
+
+  #registry{
+      width:600px;
+      float:left;
+      position: relative;
+  }
+
+   #registry h3{
+    font-size:24px;
+    text-indent:120px;
+    margin:30px 0 20px
+
+   }
+   #registry>a {
+ position: absolute;
+ left:120px;
+    display: block;
+    width: 200px;
+    height: 50px;
+    background-color:black;
+    font-size: 16px;
+    font-family: "微软雅黑";
+    color: white;
+    line-height: 50px;
+    text-align: center;
+    float:left;
+    margin-right:10px;
+    text-decoration: none;
+  
+ 
+}
+  .line{
+      width:1px;
+      height:300px;
+      background:#ababab;
+      float:left;
+  }
+  .l-col>h2{
+    line-height: 60px;
+  }
+  
+  .form-wrap>div:nth-child(2), .form-wrap>div:nth-child(3) {
+    margin: 20px auto;}
+   .l-panel {
+       width:500px;
+      padding: 20px 50px;
+  }
+  
+  .l-clearfix {
+    zoom: 1;
+    display: table;
+    width: 100%;
+    border-spacing: 0;}
+    .l-form .l-form-group>div>:last-child {
+      margin-right: 0;
+  }
+  
+  .l-form .l-form-group>div>* {
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+  
+
+  .l-clearfix:after {
+    content: " ";
+    display: block;
+    clear: both;
+    height: 0;
+  }
+  .l-form .l-form-group {
+    margin-top: 20px;
+  }
+  .l-form .l-form-group>div>* {
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+  .notice:after {
+    display: inline;
+    content: "\203B";
+    color: #378694;
+    letter-spacing: 1px;
+    font-size: inherit;
+  }
+  
+ 
+  .l-form .l-form-group>div>:last-child {
+    margin-right: 0;
+  }
+  
+  .l-form .l-form-group>div>* {
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+
+  .l-text-box .icon.left {
+    left: 3px;}
+    .l-text-box.icon-left input {
+   
+      text-indent: 0;}
+      .l-text-box input {
+        position: absolute;
+        display: block;
+        border-style: none;
+        background-color: transparent;
+        text-indent: 6px;
+        height: 100%;
+        width: 100%;
+        background-image: url(data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==);
+    }
+  
+      
+       
+          .l-text-box {
+            position: relative;
+            border: 1px solid #dadada;
+            height: 36px;
+            width: 100%;
+        }
+      
+  .l-form .l-text-box {
+      margin-top: 5px;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+  }
+  
+  .l-text-box input {
+    position: absolute;
+    display: block;
+    border-style: none;
+    background-color: transparent;
+    text-indent: 6px;
+    height: 100%;
+    width: 100%;
+    background-image: url(data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==);
+  }
+  input, select, textarea {
+    font-size: inherit;
+    outline: none;
+  }.l-btn {
+    font-size: 14px;
+  }
+  .l-form .l-form-group>div>:last-child {
+    margin-right: 0;
+  }
+  
+  .l-form .l-form-group>div>* {
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+  
+  .l-btn.black a {
+    color: #fff!important;
+    letter-spacing: -.5px;
+    text-decoration: none;
+  }
+  .l-btn.black {
+    width:80px;
+   margin:0 auto;
+    border-color: #1b1b1b;
+    background-color: #1b1b1b;
+  }
+  .l-btn {
+  
+    border: 1px solid #1b1b1b;
+  
+  }
+
+  button {
+    padding: 0;
+    outline: none;
+  }
+  .l-form .l-form-group {
+    margin-top: 20px;}
+    .l-form .l-form-group.center {
+      text-align: center;
+  }
+  
+  .l-form .l-form-group {
+      margin-top: 20px;
+  }
+  .l-clearfix {
+      zoom: 1;
+      display: table;
+      width: 100%;
+      border-spacing: 0;
+  }
+
+ 
+  
+  
+  .l-radio {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFW…o8U8+9JuN153aplKOdahKWaWMreuSRfqa3mZ9pGZsIMABtc37N9kBk1gAAAABJRU5ErkJggg==);
+    background-size: 100%;
+    vertical-align: sub;
+  
+  }
+  
+  .l-radio input {
+    display: block;
+  
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }

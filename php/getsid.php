@@ -7,4 +7,4 @@ if(isset($_GET['sid'])){
     echo json_encode($result->fetch_assoc());
 }else{
     exit('非法操作');
-?>
+}

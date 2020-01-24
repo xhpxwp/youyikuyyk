@@ -5,8 +5,11 @@ import '../stylesheets/login.css';
 import '../stylesheets/cartlist.css';
 import '../stylesheets/datails.css';
 import '../stylesheets/dressindex.css';
+import '../stylesheets/registry.css';
+
 import {
-    Louti
+
+  Louti
 } from './louti.js';
 
 
@@ -21,12 +24,30 @@ import {
 } from './details.js';
  
 import{
-    render
+  Render
 }
 from'./dress.js'
 
+import{
+  Cartlist
+}
+from'./cartlist.js'
+
+
+import{
+ Login
+}
+from'./login.js'
+
+import{
+  Registry
+ }
+ from'./registry.js'
 
 new Louti().init()
 new Tabs().init()
-// new Details().init()
+new Details().init()
 new  Render().init()
+new Cartlist().init()
+new Login().init()
+new  Registry().init()

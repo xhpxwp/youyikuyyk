@@ -17,14 +17,14 @@
         <!-- 这是头部的注册登录搜索导航栏 -->
         <div class="top-main">
             <ul>
-                <li><a href="#">注册</a></li>
-                <li><a href="#">登录</a></li>
+                <li><a href="./login.html">注册</a></li>
+                <li><a href="./registry.html">登录</a></li>
                 <li><a href="#"><span class="iconfont icon-zhanghuffffffpx"></span>账户</a></li>
                 <li><a href="#"><span class="iconfont icon-aixin"></span>收藏夹</a></li>
-                <li><a href="#"><span class="iconfont icon-gouwucheman
-          "></span>购物车</a></li>
-                <li><a href="#"><span class="iconfont icon-xinfeng"></span>站内信</a></li>
-                <li><a href="#"><span class="iconfont icon-lianxikefu"></span>联系客服</a></li>
+                <li><a href="./cartlist.html"><span class="iconfont icon-gouwucheman
+                    "></span>购物车</a></li>
+                  <li><a href="./index1.html"><span class="iconfont icon-xinfeng"></span>首页</a></li>
+                  <li><a href="./dressindex.html"><span class="iconfont icon-lianxikefu"></span>渲染页面</a></li>
                 <li><a href="#"><span class="iconfont icon-store"></span>门店购买</a></li>
             </ul>
             <form action="" method="" name=""><span class="iconfont icon-fangdajing"></span><input type="text"
@@ -54,40 +54,30 @@
         <h2>新用户注册</h2>
     </div>
     <div class="h-panel panel-center">
-        <form class="h-form label-top">
-            <div class="h-form-group h-clearfix">
-                <div>
-                    <div class="h-combo-box undefined ">
-                        <div tabindex="0" class="h-combo-box-editor">
-                            <div class="h-combo-box-editor-inner"><span></span><span
-                                    style="position: absolute; right: 24px;"></span></div>
-                        </div><i class="icon "></i><input type="hidden" name="countryCode" value="CN">
-                    </div>
-                </div>
-            </div>
+        <form class="h-form label-top"  action="http://localhost/JS1912/youyiku/php/login.php"  method="post"> 
+        
+        
             <div class="h-form-group h-clearfix">
                 <div><span>
-                        <!-- react-text: 86 -->手机号
+                        <!-- react-text: 86 -->账号
                         <!-- /react-text --><span class="notice"></span></span>
-                    <div class="h-text-box default icon-left"><i class="icon left  icon-username"></i><input type="text"
-                            class="" name="mobilephone" placeholder="手机号" value="" autocomplete="off"></div>
+                    <div class="h-text-box   ">
+                        <input type="text"
+                          placeholder="请输入账号"  class="zhanghao" name="username"></div><span class="zhanghaospan" ></span>
                 </div>
             </div>
             <div class="h-form-group h-clearfix">
                 <div>
                     <div style="display: block;"><span>
-                            <!-- react-text: 95 -->验证码
+                            <!-- react-text: 95 -->密码
                             <!-- /react-text --><span class="notice"></span></span></div>
-                    <div class="h-text-box default" style="width: 350px;"><input type="text" class="" name="code"
-                            placeholder="验证码" value="" autocomplete="off"></div><button type="button" disabled=""
-                        class="h-btn black undefined" style="width: 118px; height: 36px;">
-                        <!-- react-text: 100 -->获取验证码
-                        <!-- /react-text --></button>
+                    <div class="h-text-box" style="width: 533px;"><input type="password" name="password"
+                            placeholder="请输入密码" value="" class="mima"></div><span class="mimaspan"></span>
                 </div>
             </div>
             <div class="h-form-group h-clearfix">
                 <div><i class="h-radio " style="margin-right: 5px;"><input type="radio" name="accept" value="N"></i>
-                    <p style="vertical-align: text-top;">
+                    <p >
                         <!-- react-text: 106 -->我已阅读并同意
                         <!-- /react-text --><a href="/register-agreement.html" target="register-agreement">
                             <!-- react-text: 108 -->《优衣库会员注册协议》
@@ -98,9 +88,8 @@
                 </div>
             </div>
             <div class="h-form-group h-clearfix center">
-                <div><button type="submit" disabled="" class="h-btn black" style="height: 52px;">
-                        <!-- react-text: 115 -->注册
-                        <!-- /react-text --></button></div>
+                <div><input type="submit"   class="h-btn black btn" style="height: 52px;" name="submit" value="注册">
+                        <!-- /react-text --></div>
             </div>
         </form><!-- react-text: 116 -->
         <!-- /react-text -->

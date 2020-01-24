@@ -35,10 +35,10 @@ class Render{
     }
 }
 
-new  Render().init()
-// export{
-//     render
-// }
+
+export{
+    Render
+}
 
 // $.each(data, function(attr,value){
 //     $.each(value, function(index,v){

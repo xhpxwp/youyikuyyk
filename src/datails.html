@@ -8,8 +8,9 @@
     <meta name="description" content="优衣库" />
     <meta name="keyword" content="优衣库" />
     <title>优衣库网络旗舰店</title>
-
    
+   
+
 </head>
 
 <body>
@@ -18,14 +19,14 @@
         <!-- 这是头部的注册登录搜索导航栏 -->
         <div class="top-main">
             <ul>
-                <li><a href="#">注册</a></li>
-                <li><a href="#">登录</a></li>
+                <li><a href="./login.html">注册</a></li>
+                <li><a href="./registry.html">登录</a></li>
                 <li><a href="#"><span class="iconfont icon-zhanghuffffffpx"></span>账户</a></li>
                 <li><a href="#"><span class="iconfont icon-aixin"></span>收藏夹</a></li>
-                <li><a href="#"><span class="iconfont icon-gouwucheman
-          "></span>购物车</a></li>
-                <li><a href="#"><span class="iconfont icon-xinfeng"></span>站内信</a></li>
-                <li><a href="#"><span class="iconfont icon-lianxikefu"></span>联系客服</a></li>
+                <li><a href="./cartlist.html"><span class="iconfont icon-gouwucheman
+                    "></span>购物车</a></li>
+                  <li><a href="./index1.html"><span class="iconfont icon-xinfeng"></span>首页</a></li>
+                  <li><a href="./dressindex.html"><span class="iconfont icon-lianxikefu"></span>渲染页面</a></li>
                 <li><a href="#"><span class="iconfont icon-store"></span>门店购买</a></li>
             </ul>
             <form action="" method="" name=""><span class="iconfont icon-fangdajing"></span><input type="text"
@@ -53,23 +54,31 @@
 
     <!-- 这是详情的结构 -->
     <div class="wrap">
-        <div class="wrap-left">
-            <div id="ulist">
-                <!-- 运动的列表 -->
-                
-              <span class="iconfont icon-shangjiantou"><a href="javascript:;" ></a></span>
-                <div id="list">
-                    <ul id="imglist">
-                        <li><img src="" alt="" ></li>
-                        <li><img src="" alt="" ></li>
-                        <li><img src="" alt="" ></li>
-                        <li><img src="" alt=""></li>
-                        <li><img src="" alt=""></li>
-                        <li><img src="" alt="" ></li>
-                    </ul>
-                </div>
-                <span class="iconfont icon-jiantou9"> <a href="javascript:;" ></a></span>
+        <div id="wraplist">
+            <!-- 运动的列表 -->
+            <div id="biglist">
+                <ul id="imglist">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
             </div>
+        </div>
+          <button class="left"><a href="javascript:;" ></a></button>
+            
+            <button class="right"> <a href="javascript:;" ></a></button>
+     
+        <div class="wrap-middle">
+         
             <div id="spic">
                 <!-- 小图 -->
                 <img src="" alt="">
@@ -84,7 +93,7 @@
         </div>
         
 
-        <div class="wrap-right">
+        
  <!-- 这是加购物车的结构 -->
  <div class="goodsinfo-word">
     <div class="p-name">
@@ -92,9 +101,13 @@
     </div>
     <div class="p-price"><strong><em>￥</em><i class="loadpcp"></i></strong></div>
     <div class="p-btn">
-        <input type="text" id="count" value="1" />
-        <a href="##">加入购物车</a>
+        <div class="p-num"><span>数量</span>
+        
+            <button>-</button><input type="text" id="count" value="1" /><button>+</button>
     </div>
+        <a href="##">加入购物车</a>
+        <a href="./cartlist.html">去购物车</a>
+
 </div>
 
         </div>

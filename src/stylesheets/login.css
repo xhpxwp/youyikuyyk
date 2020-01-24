@@ -1,69 +1,3 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font: inherit;
-  font-size: 100%;
-  vertical-align: baseline;
-}
-
-/* line 22, ../../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-html {
-  line-height: 1;
-}
-
-/* line 24, ../../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-ol, ul {
-  list-style: none;
-}
-
-/* line 26, ../../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-/* line 28, ../../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-caption, th, td {
-  text-align: left;
-  font-weight: normal;
-  vertical-align: middle;
-}
-
-/* line 30, ../../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-q, blockquote {
-  quotes: none;
-}
-/* line 103, ../../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-q:before, q:after, blockquote:before, blockquote:after {
-  content: "";
-  content: none;
-}
-
-/* line 32, ../../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-a img {
-  border: none;
-}
-
-/* line 116, ../../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
-  display: block;
-}
-
-/***********编写自己的样式之前，有必要重置浏览器的默认样式。**************/
-/***********该模块提供19种CSS3命令*********/
 
 
 /* 这是中间注册的样式 */
@@ -71,9 +5,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width:1280px;
   height:60px;
   background-color: #f4f4f4;
-  margin:30px 0;
-  font-size:20px;
- 
+  margin:30px auto 10px;
+  font-size:30px;
+  text-indent: 10p ;
+}
+.h-col>h2{
+  line-height: 60px;
 }
 
 .form-wrap>div:nth-child(2), .form-wrap>div:nth-child(3) {
@@ -149,7 +86,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: inline-block;
   position: relative;
   height: 36px;
-  width: 100%;
+  width: 100%
 }
 .h-combo-box .h-combo-box-editor-inner {
   overflow: hidden;
@@ -158,7 +95,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .h-text-box .icon.left {
   left: 3px;}
   .h-text-box.icon-left input {
-    padding-left: 23px;
+ 
     text-indent: 0;}
     .h-text-box input {
       position: absolute;
@@ -234,17 +171,14 @@ input, select, textarea {
   margin-right: 10px;
   vertical-align: middle;
 }
-.h-btn:disabled {
-  color: #fff!important;
-  border-color: #dadada;
-  background-color: #dadada;
-  cursor: default;
-}
-.h-btn.black, .h-btn.red {
+
+.h-btn.black  {
   color: #fff!important;
   letter-spacing: -.5px;
+  text-decoration: none;
 }
 .h-btn.black {
+  width:80px;
   border-color: #1b1b1b;
   background-color: #1b1b1b;
 }
@@ -318,6 +252,7 @@ button {
   background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFW…o8U8+9JuN153aplKOdahKWaWMreuSRfqa3mZ9pGZsIMABtc37N9kBk1gAAAABJRU5ErkJggg==);
   background-size: 100%;
   vertical-align: sub;
+
 }
 
 .h-radio input {
@@ -327,4 +262,9 @@ button {
   width: 100%;
   height: 100%;
   margin: 0;
+}
+
+.zhanghaospan{
+  width:100px;
+  height:20px;
 }

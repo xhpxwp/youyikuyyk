@@ -51,22 +51,28 @@ class Louti {
         $(window).on('scroll', function () {
             let $top = $(window).scrollTop();
             let $topbutton = $('#topbutton')
+            
             if ($top > 500) {
                
                 $('#topbutton').css('visibility', 'visible')
                 $('#topbutton').css('position', 'fixed')
                 $('#topbutton').css('top', '300px')
-                $('#topbutton').on('click', function () {
-                    $('html').animate({
-                        scrollTop: 0
-                    });
-
-                })
+               
             }
             else{
                
                 $('#topbutton').css('visibility', 'hidden')
+               
             }
+
+           
+        })
+
+        $('#topbutton').on('click', function () {
+            $('html').animate({
+                scrollTop: 0
+            });
+
         })
     }
 
